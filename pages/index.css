@@ -3,6 +3,7 @@
 /*normalize*/
 @import url(../vendor/normalize.css);
 /*index*/
+@import url(/images/logo.svg);
 @import url(../blocks/page-container/page-container.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/logo/logo.css);
