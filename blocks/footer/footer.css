@@ -1,5 +1,25 @@
 .footer {
   display: flex;
-  margin: 0 0 0 0;
+  width: 1184px;
+  height: 18px;
+  align-self: center;
+  margin: 92px auto 24px auto;
   padding: 0 0 0 0;
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 928px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 720px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    width: 165px;
+    flex-direction: column;
+    margin: 92px 0 24px 18px;
+  }
 }

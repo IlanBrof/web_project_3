@@ -1,5 +1,28 @@
-.place {
+/* .place {
   display: flex;
   flex-wrap: wrap;
+  
+} */
+
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 484px);
+  grid-template-rows: repeat(2);
   padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: repeat(2, 456px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: repeat(2, 352px);
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 320px;
+  }
 }

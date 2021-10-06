@@ -1,15 +1,40 @@
 .cover {
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 0 92px 0;
-    padding: 0 0;
-    background-image: url(../../images/__background_route66.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 740px;
-    width: 100%;
+  text-align: center;
+  align-self: center;
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  z-index: 0;
+  width: 1184px;
+  height: 740px;
+  background-image: url(/images/__background_route66.jpg);
+  background-repeat: no-repeat;
+  background-position: contain;
+}
+
+.cover:hover {
+  opacity: 0.2;
+  transition: 300ms;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover {
+    width: 320px;
+    height: 200px;
+  }
 }

@@ -1,0 +1,23 @@
+.page-container {
+  background-color: #2a2c2f;
+  color: #ffffff;
+  font-family: "Inter";
+  margin: 0 auto;
+  min-width: 1280px;
+}
+
+@media screen and (max-width: 1024px) {
+  .page-container {
+    min-width: 1000px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-container {
+    min-width: 744px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .page-container {
+    min-width: 296px;
+  }
+}
