@@ -2,6 +2,7 @@
   margin: 0 0;
   padding: 0 0;
   list-style-type: none;
+  max-width: 690px;
 }
 
 .intro__list span {

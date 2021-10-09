@@ -2,8 +2,7 @@
   padding-top: 32px;
   margin: 0 auto;
   text-align: center;
-  width: 620px;
-  height: 72px;
+  max-width: 620px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
