@@ -1,7 +1,9 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2);
+  grid-auto-rows: auto;
+  grid-column-gap: 40px;
+  row-gap: 48px;
   padding-bottom: 80px;
 }
 
@@ -15,8 +17,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .place {
     grid-template-columns: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    row-gap: 30px;
   }
 }
