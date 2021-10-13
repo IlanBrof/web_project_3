@@ -6,7 +6,7 @@
 @media screen and (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
-    margin: 56px 48px 0 48px;
+    margin: 56px 0 0 0;
   }
 }
 
