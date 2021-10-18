@@ -10,8 +10,3 @@
     margin: 0 0;
   }
 }
-@media screen and (max-width: 320px) {
-  .cover {
-    margin: 0 0;
-  }
-}
